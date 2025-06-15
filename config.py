@@ -1,9 +1,9 @@
 # config.py
-from dotenv import load_dotenv
+
 import os
 
 # Carga las variables desde .env
-load_dotenv()
+
 
 # TTN (The Things Network)
 TTN_APP_ID  = os.getenv("TTN_APP_ID")
